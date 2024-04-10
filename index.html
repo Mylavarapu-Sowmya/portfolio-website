@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\Priyanka Mylavarapu\Pictures\port.jpg">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .hello{
+background-color:rgb(247, 200, 112);
+color:black;
+
+        }
+ 
+        .topnav {
+          overflow: hidden;
+          background-color:rgb(201, 201, 91);
+        }
+        
+        .topnav a {
+          float: right;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}    
+.hero-image { 
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('\netflix.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+.footer {
+   background-color: #7a95cf;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+}
+table,th,td{
+  border-collapse:collapse;
+  border: 2px solid black;
+  padding:10px;
+}
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#contact">Contact</a>
+        <a href="#technical">technical</a>
+        <a href="#about me">About Me</a>
+        <a class="active" href="#home">Home</a>
+      </div>
+      <div class="hero-image" id="home">
+        <div class="hero-text">
+          <h1 style="font-size:50px">I am Sowmya</h1>
+          <p>And I'm a Student</p>
+          <button>Know more about me</button>
+        </div>
+      </div>
+      
+     
+      <div class="hello">
+      <p id="about me">
+        <center>
+      <h1>About me</h1>
+      It's my pleasure to introduce myself to you.<br>
+      My name is Mylavarapy Sowmya.I am 19 years old. I live in khammam. <br>
+      I am currently pursuing my under graduation in Computer Science Engineering in Anurag Engineering College.<br>
+      I am a strongly determinded person.<br>
+      
+      <h3>Education:</h3>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Institution</th>
+        </tr>
+        <tr>
+          <td>B. Tech (CSE)</td>
+          <td>Anurag Engineering College, India</td>
+        </tr>
+        <tr>
+          <td>Intermediate(M.P.C)</td>
+          <td>Resonance Junior College</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>St. Joseph's High School</td>
+        </tr>
+      </table>
+      <br>
+      </center>
+      </p>
+   
+         <center>   
+      <h2><u>My strengths are:</h2></u>
+      Communication skills<br>
+      Active listening skills<br>
+      Problem solving skills<br>
+      Team management<br>
+      Strongly determined<br><br>
+  
+      That's all about me.<br>
+      Thank you.
+      
+      <p id="technical">
+        <h2><u>Technical skills:</u></h2>
+        <strong>C Programming Language:</strong>
+        <h1 style="background-color:rgb(255, 0, 0);height:40px;width:1000px"><center>90%<center></h1>
+        <strong>Java Programming Language:</strong>
+        <h1 style="background-color:rgb(0, 0, 255);height:40px;width:900px"><center>80%</center></h1>
+        <strong>Python Programming Language:</strong>
+        <h1 style="background-color:rgb(60, 179, 113);height:40px;width:800px"><center>75%</center></h1>
+        <strong>HTML:</strong>
+        <h1 style="background-color:rgb(238, 130, 238);height:40px;width:600px"><center>70%</center></h1>
+        <strong>CSS:</strong>
+        <h1 style="background-color:rgb(255, 165, 0);height:40px;width:500px"><center>69%</center></h1>
+      </p>  
+    </center>
+</div>
+
+                <div class="footer" id="contact">
+                  <h1>Contact me</h1>
+                  <img src="C:\Users\Priyanka Mylavarapu\Pictures\location.jpg" alt="location" width="30" height="40">   khammam,India<br>
+                  <img src="C:\Users\Priyanka Mylavarapu\Pictures\phone.jpg" alt="phone no:" width="30" height="40">  6300651934<br>
+                  <img src="C:\Users\Priyanka Mylavarapu\Pictures\mail.jpg" alt="Mail id:" width="30" height="40">   sowmyamylavarapu21@gmail.com<br>
+                  <h3>Lets get in touch. Send me a message:</h3><br>
+                  <label for="fname">First Name</label>
+           <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+           <label for="lname">Last Name</label>
+           <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+           <label for="country">Country</label>
+           <select id="country" name="country" style="text-align:left;">
+             <option value="australia">Telangana</option>
+             <option value="canada">Canada</option>
+             <option value="usa">USA</option>
+           </select><br><br>
+           
+           <input type="submit" value="Submit">
+                </div>
+               
+          
+           
+     
+</body>
+</html>
